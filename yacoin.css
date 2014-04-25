@@ -10,6 +10,10 @@ background-repeat:no-repeat;
 background-image:url('../dist/img/tux.png');
 background-repeat:no-repeat;
 }
+.paper{
+background-image:url('../dist/img/paper.png');
+background-repeat:no-repeat;
+}
 .dl
 {
 color:black;
