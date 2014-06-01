@@ -66,7 +66,7 @@ YACoin differs from other cryptocurrencies in its usage of these newer technolog
 
 <p>Other cryptocurrencies implementing Scrypt use a fixed Scrypt(1024, 1, 1) with SHA-256 and Salsa20 as hashing and mixing functions. As these use only 128 kB of memory per hash, they can effectively be implemented on parallel architectures like GPU and FPGA devices.<br />
 <br />
-YACoin, with its current value of N=32768, uses 4 MB of memory (no commercially-available GPU has a compute unit local memory of this size), thus most data ends up in the much slower shared global memory.<br />
+YACoin, with its current value of N=65536, uses 8 MB of memory (no commercially-available GPU has a compute unit local memory of this size), thus most data ends up in the much slower shared global memory.<br />
 As such, YACoin is one of the very few alt coins that can be mined efficiently on a CPU. <b>This means that almost any computer (new or old) can be used to mine YACoins!</b></p>
 <br />
 <b>Economics:</b>
@@ -81,7 +81,7 @@ This feature will gradually deflate the currency in proportion to its velocity. 
 <!-- Site footer -->
 
 <div class="footer">
-<p>Copyleft &copy; <a href="http://www.yacoin.org">YACoin</a> 2013</p>
+<p>Copyleft &copy; <a href="http://www.yacoin.org">YACoin</a> 2013-2014</p>
 </div>
 </div>
 <!-- /container --><!-- Bootstrap core JavaScript
