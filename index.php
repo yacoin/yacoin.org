@@ -8,6 +8,8 @@
 	<meta name="keywords" content="yacoin, yacoin explorer, proof of stake, scrypt-jane, bitcoin, altcoin, alternative currency" >
 	<link href="favicon.ico" rel="shortcut icon" />
 	<title>YACoin - Your Alternative Currency Since May 2013 - Home</title>
+<!--	<header><div style="text-align: center"><a href="https://www.satoshidice.com/?a=248058205"><img src="/dist/img/satoshidice.jpg" class="img-rounded" alt="Satoshi Dice"></a></div></header> -->
+	<p><hr></p>
 	<!-- Bootstrap core CSS -->
 	<link href="dist/css/bootstrap.min.css" rel="stylesheet" /><!-- Custom styles for this template -->
 	<link href="justified-nav.css" rel="stylesheet" />
@@ -18,25 +20,17 @@
 </head>
 <body>
 <div class="container">
-<div class="masthead">
-<ul class="nav nav-justified custom">
-	<li class="active"><a href="#">Home</a></li>
-	<li><a href="http://explore.grokonet.com/" target="_blank">Block Explorer</a></li>
-	<li><a href="https://forum.yacoin.org/" target="_blank">Original Forum</a></li> 
-	<li><a href="http://yacointalk.grokonet.com/" target="_blank">Alternate Forum</a></li> 	
-	<li><a href="timeline.html">Timeline</a></li>
-	<li><a href="tech.html">Technical Info</a></li>
-</ul>
-</div>
+
+
+<?php 
+include_once("includes/nav.php"); 
+?>
+
+
 <!-- Jumbotron -->
 
 <div class="jumbotron"><img src="dist/img/splash.png" />
 <hr />
-<!-- <blockquote>
-<p>Yoohoo! Yorgas and Yobbs: As we yarely youngin&#39;s yomp about yearning for yonder yogic ideals of synocracy, yet unyielding to everyday yahoos, y&#39;all yellowish yuppies yo-yo about using your Yen&#39;s and Yuan&#39;s without sobriety. Yes, even the Yeshivas&#39; Yoda, YHWH, yells yeomanly for the youthful yesmen and yahoos of the youtube generation to yank off the yoke of the yucky paradigms of yesteryear. So, yowl with the YOLO movement to yote the Y coin on our yobbish society: for freedom, for cooperation. Yours, The Y Coin Users</p>
-
-<footer>Cypherious</footer>
-</blockquote> -->
 
 
 <div>
@@ -67,11 +61,9 @@ In addition, there is a development thread that you can: </p>
 
 <p class="text">
 YACoin was created in May of 2013 and was the first to introduce the N parameter of Scrypt. Check out the Technical Info page for more details.  
-We recently passed block 700,000, and are looking forward to 1,000,000! Many coins come and go well before then. We've just got started! 
-Think YACoin has a small community because we don't have the promotional and marketing juggernauts of some other coins?  
+We recently passed block 1,600,000, and are looking forward to 2,000,000! Many coins come and go well before then. We've just started! 
 </p>
-<p>
-<a class="btn btn-success" href="http://explorer.yacoin.org/?volume=1" target="_blank" role="button">Think again! &raquo;</a></p>
+
 </div>
 
 <div class="col-lg-4">
@@ -92,10 +84,11 @@ Think YACoin has a small community because we don't have the promotional and mar
 
 </div>
 <!-- Site footer -->
+<?php 
+include_once("includes/footer.php"); 
+?>
 
-<div class="footer">
-<p>Copyleft &copy; <a href="https://www.yacoin.org">YACoin</a> 2013-2014</p>
-</div>
+
 </div>
 <!-- /container --><!-- Bootstrap core JavaScript
     ================================================== --><!-- Placed at the end of the document so the pages load faster --></body>

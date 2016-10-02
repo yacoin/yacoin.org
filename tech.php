@@ -17,16 +17,11 @@
 </head>
 <body>
 <div class="container">
-<div class="masthead">
-<ul class="nav nav-justified custom">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="http://explorer.yacoin.org" target="_blank">Block Explorer</a></li>
-	<li><a href="https://forum.yacoin.org/" target="_blank">Original Forum</a></li> 
-	<li><a href="http://yacointalk.grokonet.com/" target="_blank">Alternate Forum</a></li>
-	<li><a href="timeline.html">Timeline</a></li>
-	<li class="active"><a href="tech.html">Technical Info</a></li>
-</ul>
-</div>
+
+
+<?php 
+include_once("includes/nav.php"); 
+?>
 
 <div class="container">
 <div class="page-header">
@@ -76,13 +71,13 @@ Proof-of-stake minters are also rewarded with interest on the coins they own at 
 This feature will gradually deflate the currency in proportion to its velocity. The cumulative effect of creating and destroying the currency is theoretically intended to stabilize the growth of its supply, while keeping it adaptable to demand and usage.</p>
 <b>Major Markets:</b>
 
-<p>YACoin can be traded for other currencies through various online exchanges including <a href="https://www.allcrypt.com/market?id=904" target="_blank">AllCrypt</a>, <a href="https://bter.com/signup/6633" target="_blank">Bter</a> and <a href="https://www.cryptsy.com/users/register?refid=15089" target="_blank">Cryptsy</a>.</p>
+<p>YACoin can be traded for other currencies through various online exchanges including <a href="https://bter.com/signup/6633" target="_blank">Bter</a> and <a href="https://yobit.net/en/trade/YAC/BTC" target="_blank">YoBit</a>.</p>
 </div>
 <!-- Site footer -->
+<?php 
+include_once("includes/footer.php"); 
+?>
 
-<div class="footer">
-<p>Copyleft &copy; <a href="https://www.yacoin.org">YACoin</a> 2013-2014</p>
-</div>
 </div>
 <!-- /container --><!-- Bootstrap core JavaScript
     ================================================== --><!-- Placed at the end of the document so the pages load faster --></body>

@@ -18,16 +18,11 @@
 </head>
 <body>
 <div class="container">
-<div class="masthead">
-<ul class="nav nav-justified custom">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="http://explorer.yacoin.org" target="_blank">Block Explorer</a></li>
-	<li><a href="https://forum.yacoin.org/" target="_blank">Original Forum</a></li> 
-	<li><a href="http://yacointalk.grokonet.com/" target="_blank">Alternate Forum</a></li> 
-	<li class="active"><a href="#">Timeline</a></li>
-	<li><a href="tech.html">Technical Info</a></li>
-</ul>
-</div>
+
+<?php 
+include_once("includes/nav.php"); 
+?>
+
 
 <div class="container">
 <div class="page-header">
@@ -36,7 +31,46 @@
 
 <ul class="timeline">
 
-	  <li class="timeline-panel">
+   <li class="timeline-panel">
+	<div class="timeline-badge-notify">05/03/16</div>
+
+	<div class="timeline-panel">
+	<div class="timeline-heading">
+	<h4 class="timeline-title">Block 1,500,000</h4>
+	</div>
+
+	<div class="timeline-body">
+	<p>YACoin reaches block 1,500,000! A Proof of Work block with 99.04 coins generated.</p>
+
+	<hr /><a href="http://explore.grokonet.com/?blocknumber=1500000&submit=Submit" target="_blank">View @ explorer</a>
+
+	<p></p>
+
+	<hr /></div>
+	</div>
+	</li>
+
+
+	<li class="timeline-panel">
+	<div class="timeline-badge-notify">04/07/15</div>
+
+	<div class="timeline-panel">
+	<div class="timeline-heading">
+	<h4 class="timeline-title">Block 1,000,000</h4>
+	</div>
+
+	<div class="timeline-body">
+	<p>YACoin reaches block 1,000,000! A Proof of Work block with 79.12 coins generated.</p>
+
+	<hr /><a href="http://explore.grokonet.com/?blocknumber=1000000&submit=Submit" target="_blank">View @ explorer</a>
+
+	<p></p>
+
+	<hr /></div>
+	</div>
+	</li>
+
+	<li class="timeline-panel">
 	<div class="timeline-badge-notify">10/13/14</div>
 
 	<div class="timeline-panel">
@@ -224,10 +258,10 @@
 </ul>
 </div>
 <!-- Site footer -->
+<?php 
+include_once("includes/footer.php"); 
+?>
 
-<div class="footer">
-<p>Copyleft &copy; <a href="https://www.yacoin.org">YACoin</a> 2013-2014</p>
-</div>
 </div>
 <!-- /container --><!-- Bootstrap core JavaScript
     ================================================== --><!-- Placed at the end of the document so the pages load faster --></body>
