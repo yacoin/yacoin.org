@@ -71,7 +71,7 @@ Proof-of-stake minters are also rewarded with interest on the coins they own at 
 This feature will gradually deflate the currency in proportion to its velocity. The cumulative effect of creating and destroying the currency is theoretically intended to stabilize the growth of its supply, while keeping it adaptable to demand and usage.</p>
 <b>Major Markets:</b>
 
-<p>YACoin can be traded for other currencies through various online exchanges including <a href="https://bter.com/signup/6633" target="_blank">Bter</a> and <a href="https://yobit.net/en/trade/YAC/BTC" target="_blank">YoBit</a>.</p>
+<p>YACoin can be traded for other currencies through various online exchanges including <a href="https://bter.com/trade/yac_btc" target="_blank">Bter</a> and <a href="https://yobit.net/en/trade/YAC/BTC" target="_blank">YoBit</a>.</p>
 </div>
 <!-- Site footer -->
 <?php 
