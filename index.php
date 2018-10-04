@@ -35,7 +35,7 @@ include_once("includes/nav.php");
 
 <div>
 <p class="alert alert-warning"><b>Get your own Yacoin wallet:</b> 
-<a class="windows btn btn-lg" href="https://github.com/yacoin/yacoin/releases/download/stable_0.4.4/Yacoin.0.4.4.zip" role="button"><strong class="dl">Windows</strong></a> 
+<a class="windows btn btn-lg" href="https://github.com/yacoin/yacoin/releases/download/stable_0.4.9/Yacoin.0.4.9.zip" role="button"><strong class="dl">Windows</strong></a> 
 <a class="ubuntu btn btn-lg" href="https://launchpad.net/~yacoin/+archive/yacoin" target="_blank" role="button"><strong class="dl">Ubuntu</strong></a> 
 <a class="source btn btn-lg" href="https://github.com/yacoin/yacoin/releases" target="_blank" role="button"><strong class="dl">Source</strong></a>
 <a class="paper btn btn-lg" href="https://yaddress.yacoin.org/" target="_blank" role="button"><strong class="dl">Paper Wallet</strong></a>
