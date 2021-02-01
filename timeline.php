@@ -31,7 +31,39 @@ include_once("includes/nav.php");
 
 <ul class="timeline">
 
-   <li class="timeline-panel">
+
+    <li class="timeline-panel">
+	<div class="timeline-badge-notify">02/01/21</div>
+
+	<div class="timeline-panel">
+	<div class="timeline-heading">
+	<h4 class="timeline-title">Planned YACoin Resurrection Hard Fork – Heliopolis</h4>
+	</div>
+
+	<div class="timeline-body">
+	<p>YACoin will hardfork at block 1,890,000 with major upgrades:</p>
+	
+	<ul>
+		<li>PoW ONLY – No more Proof of Stake. Proof of Work is the innovation of Bitcoin.</li>
+		<li>2% annualized supply inflation max. Fees are destroyed, which can cause supply deflation with increased economic activity. The block reward is calculated off of the total money supply. First PoW coin to do so.</li>
+		<li>Unique algorithm. Sticking to its roots, YAC will maintain the inventive scrypt-chacha (aka scrypt-jane). NFactor will be set at 21 to be ASIC resistance but also mineable for many CPUs and GPUs.</li>
+		<li>Intelligent Block Size Increase. Block size will increase over time at no more than 2%--dependent on the total money supply.</li>
+		<li>Set epoch lengths. At 21,000 blocks for each epoch, the ‘compounding bad luck’ problem faced by the mining ecosystem is addressed. The system incentivizes more decentralization, smaller miners/pools.</li>
+		<li>Timelock and atomic swap/loans capabilities.</li>
+		<li>Upgrade includes many bug fixes (incl. txid malleability bug, UTC timestamp bug) as well as other features and more to come.</li>
+	</ul>
+
+	<hr/>
+	<a href="https://github.com/yacoin/yacoin" target="_blank">View @github</a>
+
+	<p></p>
+
+	<hr/>
+	</div>
+	</div>
+	</li>
+
+    <li class="timeline-panel">
 	<div class="timeline-badge-notify">05/03/16</div>
 
 	<div class="timeline-panel">
@@ -46,7 +78,7 @@ include_once("includes/nav.php");
 
 	<p></p>
 
-	<hr /></div>
+	<hr/></div>
 	</div>
 	</li>
 
